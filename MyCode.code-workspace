@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "MyCode",
+			"path": "."
+		},
+		{
+			"name": "BrewingEquipment",
+			"path": "c:\\Users\\nagpu\\Downloads\\Assets&Specifications_ForCapstone\\Assets\\BrewingEquipment"
+		},
+		{
+			"name": "Classics",
+			"path": "c:\\Users\\nagpu\\Downloads\\Assets&Specifications_ForCapstone\\Assets\\CoffeeBlends\\Classics"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "MyCode"
+	}
+}

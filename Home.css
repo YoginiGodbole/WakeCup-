@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: black;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)); */
+    /* background-image: linear-gradient(black); */
+    position: relative;
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 80px;
+    border-radius: 5px;
+    transition: 0.3S ease;
+}
+nav .logo:hover{
+    opacity: 0%;
+    transition: 0.3s ease;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding: 2px;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+nav ul li a:hover{
+    opacity: 0%;
+    transition: 0.3s ease;
+}
+#M1{
+    color: black;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.content h1:hover{
+    -webkit-text-stroke: 5px black;
+    color: transparent;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+.content a:hover{
+    background-color: rgba(0, 0, 0, 0.358);
+    color: black;
+}
+.back-video{
+    position: absolute;
+    padding-top: 20px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+#explore{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 50px;
+    color: black;
+}
+#content{
+    padding: 20px 15px;
+}
+#content a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'IM Fell English', serif;
+    transition: 0.3s ease;
+    font-size: 65px ;
+}
+#content a:hover{
+    color: goldenrod;
+}
+#content span{
+    color: goldenrod;
+}
+
+#img-gall{
+    padding: 30px 20px;
+}
+    
+/* Music Gallery Image Effect */
+.image1{
+    position: relative;
+    width: 400px;
+}
+.image__img1 {
+    display: block;
+    width: 100%;
+}
+.image__overlay1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay1:hover{
+    opacity: 1;
+}
+.image__overlay--blur1{
+    backdrop-filter: blur(5px);
+}
+.image__overlay1 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay1:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title1{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    font-family: 'IM Fell English';
+}
+.image__description1{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.image2{
+    position: relative;
+    width: 400px;
+}
+.image__img2 {
+    display: block;
+    width: 100%;
+}
+.image__overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay2:hover{
+    opacity: 1;
+}
+.image__overlay--blur2{
+    backdrop-filter: blur(5px);
+}
+.image__overlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay2:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title2{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    font-family: 'IM Fell English';
+}
+.image__description2{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+.image3{
+    position: relative;
+    width: 400px;
+}
+.image__img3 {
+    display: block;
+    width: 100%;
+}
+.image__overlay3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay3:hover{
+    opacity: 1;
+}
+.image__overlay--blur3{
+    backdrop-filter: blur(5px);
+}
+.image__overlay3 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay3:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title3{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.image__description3{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+#data{
+    padding: 10px 70px;
+    /* -webkit-text-stroke: 0.5px; */
+    color: black;
+}
+#data h1{
+    font-size: 50px;
+    font-family: 'Quicksand',sans-serif;
+    padding: 10px 0 25px;
+    color: black;
+}
+#data div{
+    background-image: url(homeback.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+#data div h3{
+    /* padding: 10px; */
+    letter-spacing: 1px;
+    justify-content: left;
+    padding:  25px 25px 100px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+#data div hr{
+    width: 70%;
+}
+#innerdata{
+    padding: 50px;
+    
+}
+/* Editing the Footer of The Website */
+
+#footer{
+    background-color: black;
+    color: white;
+    background-size: 100%;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#footerTable a{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Quicksand',sans-serif;
+}
+#innerFooter{
+    padding: 30px;
+}
+#innerFooter p{
+    padding-left: 50%;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
